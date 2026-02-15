@@ -1,5 +1,9 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import React from "react";
+import {
+  FaLinkedinIn,
+  FaGithub,
+  FaCode,
+} from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 // This component is used to display the left side of the contact form
@@ -15,22 +19,19 @@ const ContactLeft = () => {
 
       {/* This section contains the contact details */}
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Daniel Ndeto</h3>
-        <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
-        </p>
+        <h3 className="text-3xl font-bold text-white">Sajal Khandelwal</h3>
+        <p className="text-lg font-normal text-gray-400">Software Engineer</p>
         <p className="text-base text-gray-400 tracking-wide">
-          I am a dedicated MERN Stack Developer with a passion for crafting
-          modern, user-centric web applications. By combining robust backend
-          solutions with dynamic frontend designs, I strive to create digital
-          experiences that are both innovative and reliable.
+          Software Engineer with expertise in Next.js, React.js, and TypeScript.
+          I specialize in developing scalable full-stack web applications with
+          responsive interfaces and real-time features. Experienced in CI/CD
+          workflows, GitLab, and AWS for monitoring and deployment.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+254 113 877 422</span>
+          Phone: <span className="text-lightText">+91 9936616471</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email:{" "}
-          <span className="text-lightText">danielndeto222@gmail.com</span>
+          Email: <span className="text-lightText">sajalsk247@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
@@ -38,25 +39,7 @@ const ContactLeft = () => {
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a
-              href="https://www.facebook.com/profile.php?id=100075378249781"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebookF />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://x.com/musyoki_017"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaTwitter />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <a
-              href="https://www.linkedin.com/in/daniel-ndeto-187a8b292"
+              href="https://www.linkedin.com/in/sajal-khandelwal-86552220a/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -65,7 +48,7 @@ const ContactLeft = () => {
           </span>
           <span className="bannerIcon">
             <a
-              href="https://github.com/daniel-ndeto"
+              href="https://github.com/sajalsk"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -73,18 +56,18 @@ const ContactLeft = () => {
             </a>
           </span>
           <span className="bannerIcon">
-            <a
-              href="https://github.com/daniel"
-              target="_blank"
+            <a 
+              href="https://leetcode.com/sajalsk" 
+              target="_blank" 
               rel="noopener noreferrer"
             >
-              <FaInstagram />
+              <FaCode />
             </a>
           </span>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default ContactLeft;

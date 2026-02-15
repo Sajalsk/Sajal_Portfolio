@@ -1,5 +1,6 @@
 // Importing the logo image
 import logo from "./images/logo.png";
+import social from "./images/social.png";
 
 // Importing the banner image used in the application
 import bannerImg from "./images/bannerImg.png";
@@ -20,6 +21,7 @@ import contactImg from "./images/contact/contactImg.png";
 // Exporting all imported assets for use in other parts of the application
 export {
   logo,
+  social,
   bannerImg,
   projectOne,
   projectTwo,

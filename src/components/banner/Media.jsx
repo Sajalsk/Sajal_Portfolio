@@ -1,7 +1,19 @@
 // imports of media icons
-import React from 'react';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaGithub } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs, SiJavascript, SiMongodb, SiNodedotjs } from "react-icons/si";
+import React from "react";
+import {
+  FaLinkedinIn,
+  FaReact,
+  FaGithub,
+  FaCode,
+} from "react-icons/fa";
+import {
+  SiTailwindcss,
+  SiFigma,
+  SiNextdotjs,
+  SiJavascript,
+  SiMongodb,
+  SiNodedotjs,
+} from "react-icons/si";
 const Media = () => {
   // This component displays social media icons and best skill icons
   return (
@@ -10,25 +22,30 @@ const Media = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href="https://www.facebook.com/profile.php?id=100075378249781" target="_blank" rel="noopener noreferrer">
-              <FaFacebookF />
+            <a
+              href="https://www.linkedin.com/in/sajal-khandelwal-86552220a/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn />
             </a>
           </span>
           <span className="bannerIcon">
-            <a href="https://x.com/musyoki_017" target="_blank" rel="noopener noreferrer">
-              <FaTwitter />
-            </a>
-          </span>
-          <span className="bannerIcon">
-            <span className="bannerIcon">
-              <a href="https://www.linkedin.com/in/daniel-ndeto-187a8b292" target="_blank" rel="noopener noreferrer">
-                <FaLinkedinIn />
-              </a>
-            </span>
-          </span>
-          <span className="bannerIcon">
-            <a href="https://github.com/daniel-ndeto" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/sajalsk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub />
+            </a>
+          </span>
+          <span className="bannerIcon">
+            <a
+              href="https://leetcode.com/sajalsk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+             <FaCode/>
             </a>
           </span>
         </div>
@@ -65,6 +82,6 @@ const Media = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Media
+export default Media;

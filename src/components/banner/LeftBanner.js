@@ -30,10 +30,10 @@ const LeftBanner = () => {
     return (
       <div className="w-full lgl:w-1/2 flex flex-col gap-20">
         <div className="flex flex-col gap-5">
-          <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+          <h4 className=" text-lg font-normal">WELCOME TO MY Portfolio</h4>
           <h1 className="text-6xl font-bold text-white">
             Hi, I'm{" "}
-            <span className="text-designColor capitalize">Daniel Ndeto</span>
+            <span className="text-designColor capitalize">Sajal Khandelwal</span>
           </h1>
           <h2 className="text-4xl font-bold text-pink">
             a <span>{text}</span>
@@ -44,9 +44,9 @@ const LeftBanner = () => {
             />
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide">
-  I believe in transforming ideas into experiences that resonate. By seamlessly integrating subtle animations and intuitive design,
-  I create interfaces that captivate and guide users effortlessly. Every project is an opportunity to
-  blend creativity with robust code,ensuring that digital experiences are as delightful as they are functional.
+  I am a Software Engineer specializing in Next.js, React.js, and TypeScript , Nodejs , Express.js , MongoDB . With experience in building scalable full-stack web applications,
+  I focus on creating responsive, high-performance interfaces and integrating RESTful APIs and WebSocket-based real-time features.
+  I'm passionate about optimizing performance and delivering exceptional user experiences.
           </p>
         </div>
         <Media />
