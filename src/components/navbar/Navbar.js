@@ -11,12 +11,12 @@ const Navbar = () => {
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>{/* <img src={logo} alt="logo" /> */}</div>
       <div className="mr-[850px]">
-        <a
-          href="https://drive.google.com/uc?export=download&id=186rao2unEtmeo16XREa5DNOj69SC3kA3"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-52 h-14 bg-gradient-to-r from-[#1e2024] to-[#23272b] hover:from-designColor hover:to-designColor border border-designColor text-designColor hover:text-white rounded-lg flex items-center justify-center gap-2 font-titleFont text-base font-medium transition-all duration-300 hover:scale-105 shadow-shadowOne hover:shadow-lg"
-        >
+        // <a
+        //   href="https://drive.google.com/uc?export=download&id=186rao2unEtmeo16XREa5DNOj69SC3kA3"
+        //   target="_blank"
+        //   rel="noopener noreferrer"
+        //   className="w-52 h-14 bg-gradient-to-r from-[#1e2024] to-[#23272b] hover:from-designColor hover:to-designColor border border-designColor text-designColor hover:text-white rounded-lg flex items-center justify-center gap-2 font-titleFont text-base font-medium transition-all duration-300 hover:scale-105 shadow-shadowOne hover:shadow-lg"
+        // >
           {/* <FaDownload className="text-lg" /> */}
           <div className="flex justify-center items-center gap-4">
             <span>Resume</span>
@@ -24,7 +24,7 @@ const Navbar = () => {
               <FaDownload />{" "}
             </span>
           </div>
-        </a>
+        // </a>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
