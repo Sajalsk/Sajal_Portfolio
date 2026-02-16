@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { FaDownload } from "react-icons/fa";
-import Title from "../layouts/Title";
 import Education from "./Education";
 import Skills from "./Skills";
 import Achievement from "./Achievement";
