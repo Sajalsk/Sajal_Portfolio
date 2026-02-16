@@ -1,5 +1,4 @@
 import React from 'react'
-import { HiArrowRight } from "react-icons/hi";
 
 // This component is used to create a card that displays a title, description, and an icon
 const Card = ({item:{title,des,icon}}) => {
